@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de alto contraste (RNF-01). Relación mínima 7:1 (nivel AAA). -->
+    <color name="fondo_pantalla">#FFF8E7</color>
+    <color name="texto_principal">#1B1B1B</color>
+    <color name="boton_fondo">#0D47A1</color>
+    <color name="boton_texto">#FFFFFF</color>
+
+    <!-- Frame 2: campo de texto y botón bloqueado -->
+    <color name="campo_fondo">#FFFFFF</color>
+    <color name="campo_borde">#1B1B1B</color>
+    <color name="boton_deshabilitado">#6B6B6B</color>
+</resources>

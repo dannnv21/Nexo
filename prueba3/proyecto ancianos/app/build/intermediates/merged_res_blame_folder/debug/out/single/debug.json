@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.nexo.app-merged_res-20:/drawable_fondo_campo_texto.xml.flat",
+        "source": "com.nexo.app-main-22:/drawable/fondo_campo_texto.xml"
+    },
+    {
+        "merged": "com.nexo.app-merged_res-20:/color_boton_fondo_selector.xml.flat",
+        "source": "com.nexo.app-main-22:/color/boton_fondo_selector.xml"
+    },
+    {
+        "merged": "com.nexo.app-merged_res-20:/layout_activity_topic.xml.flat",
+        "source": "com.nexo.app-main-22:/layout/activity_topic.xml"
+    },
+    {
+        "merged": "com.nexo.app-merged_res-20:/layout_activity_welcome.xml.flat",
+        "source": "com.nexo.app-main-22:/layout/activity_welcome.xml"
+    }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">¿Hablamos?</string>
+
+    <!-- Frame 1: Bienvenida (RF-01, RNF-02) -->
+    <string name="bienvenida_titulo">¡Hola! Qué alegría verte por aquí</string>
+    <string name="bienvenida_lema">Sin prisas. A tu ritmo.</string>
+    <string name="bienvenida_boton_quiero_hablar">Quiero hablar</string>
+    <string name="bienvenida_boton_descripcion">Quiero hablar. Pulsa para contarnos de qué te apetece conversar</string>
+
+    <!-- Frame 2: Tema de conversación (RF-02, RF-03, RF-04) -->
+    <string name="tema_titulo">¿De qué te apetece hablar?</string>
+    <string name="tema_ayuda">Cuéntanoslo con pocas palabras</string>
+    <string name="tema_hint">Por ejemplo: mi día, mis plantas…</string>
+    <string name="tema_contador">%1$d/%2$d</string>
+    <string name="tema_boton_enviar">Enviar</string>
+    <string name="tema_boton_descripcion">Enviar. Pulsa para pedir que alguien te llame</string>
+    <string name="tema_enviando">Preparando tu conversación…</string>
+</resources>

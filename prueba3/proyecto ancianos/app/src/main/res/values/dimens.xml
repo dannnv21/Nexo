@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tipografías grandes (RNF-01). Se usan sp para respetar el tamaño de letra del sistema. -->
+    <dimen name="texto_titulo">34sp</dimen>
+    <dimen name="texto_lema">26sp</dimen>
+    <dimen name="texto_boton">30sp</dimen>
+
+    <!-- Áreas de toque amplias (RNF-01). -->
+    <dimen name="boton_alto_minimo">96dp</dimen>
+    <dimen name="margen_pantalla">24dp</dimen>
+    <dimen name="separacion">32dp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Tema.Hablamos" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/fondo_pantalla</item>
+        <item name="android:textColor">@color/texto_principal</item>
+    </style>
+</resources>

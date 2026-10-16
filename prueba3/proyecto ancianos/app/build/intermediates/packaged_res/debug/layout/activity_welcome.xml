@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Frame 1: Bienvenida (RF-01). ScrollView para que con letra muy grande nada quede cortado. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/fondo_pantalla">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margen_pantalla">
+
+        <TextView
+            android:id="@+id/textoBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/bienvenida_titulo"
+            android:textColor="@color/texto_principal"
+            android:textSize="@dimen/texto_titulo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textoLema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/separacion"
+            android:gravity="center"
+            android:text="@string/bienvenida_lema"
+            android:textColor="@color/texto_principal"
+            android:textSize="@dimen/texto_lema" />
+
+        <Button
+            android:id="@+id/botonQuieroHablar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/separacion"
+            android:contentDescription="@string/bienvenida_boton_descripcion"
+            android:minHeight="@dimen/boton_alto_minimo"
+            android:text="@string/bienvenida_boton_quiero_hablar"
+            android:textAllCaps="false"
+            android:textColor="@color/boton_texto"
+            android:textSize="@dimen/texto_boton"
+            android:textStyle="bold"
+            app:backgroundTint="@color/boton_fondo" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Caja del campo de texto: fondo blanco y borde oscuro grueso para que se vea bien (RNF-01). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/campo_fondo" />
+    <stroke
+        android:width="3dp"
+        android:color="@color/campo_borde" />
+    <corners android:radius="12dp" />
+</shape>

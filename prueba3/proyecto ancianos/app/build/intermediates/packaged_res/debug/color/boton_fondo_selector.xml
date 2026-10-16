@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Azul cuando se puede pulsar, gris cuando está bloqueado (RF-03, RF-04). -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:color="@color/boton_deshabilitado" />
+    <item android:color="@color/boton_fondo" />
+</selector>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Frame 2: tema de conversación (RF-02, RF-03, RF-04). ScrollView para que con letra grande o teclado abierto nada quede tapado. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/fondo_pantalla">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margen_pantalla">
+
+        <TextView
+            android:id="@+id/textoTemaTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tema_titulo"
+            android:textColor="@color/texto_principal"
+            android:textSize="@dimen/texto_titulo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textoTemaAyuda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/tema_ayuda"
+            android:textColor="@color/texto_principal"
+            android:textSize="@dimen/texto_lema" />
+
+        <EditText
+            android:id="@+id/campoTema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/separacion"
+            android:background="@drawable/fondo_campo_texto"
+            android:gravity="top|start"
+            android:hint="@string/tema_hint"
+            android:importantForAutofill="no"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="100"
+            android:maxLines="4"
+            android:minHeight="@dimen/boton_alto_minimo"
+            android:padding="16dp"
+            android:textColor="@color/texto_principal"
+            android:textColorHint="@color/boton_deshabilitado"
+            android:textSize="@dimen/texto_lema" />
+
+        <TextView
+            android:id="@+id/contadorCaracteres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="end"
+            android:text="@string/tema_contador"
+            android:textColor="@color/texto_principal"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/botonEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/separacion"
+            android:contentDescription="@string/tema_boton_descripcion"
+            android:enabled="false"
+            android:minHeight="@dimen/boton_alto_minimo"
+            android:text="@string/tema_boton_enviar"
+            android:textAllCaps="false"
+            android:textColor="@color/boton_texto"
+            android:textSize="@dimen/texto_boton"
+            android:textStyle="bold"
+            app:backgroundTint="@color/boton_fondo_selector" />
+
+        <TextView
+            android:id="@+id/textoEnviando"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/tema_enviando"
+            android:textColor="@color/texto_principal"
+            android:textSize="@dimen/texto_lema"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>
